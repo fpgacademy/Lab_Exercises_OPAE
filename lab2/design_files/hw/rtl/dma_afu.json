@@ -1,0 +1,19 @@
+{
+   "version": 1,
+   "afu-image": {
+      "power": 0,
+      "afu-top-interface":
+         {
+            "class": "ccip_std_afu_avalon_mm"
+         },
+      "accelerator-clusters":
+         [
+            {
+               "name": "dma_test_afu",
+               "total-contexts": 1,
+               "accelerator-type-uuid": "7a334389-32e4-4097-a02e-8bdbd04b22e9"
+            }
+         ]
+   }
+}
+
